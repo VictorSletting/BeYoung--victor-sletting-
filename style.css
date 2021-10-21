@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
 
 :root {
-  --background: rgba(241, 205, 3, 0.781);
+  --background: rgb(255, 217, 0);
 }
 
 *,
@@ -105,7 +105,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
+  background: rgb(255, 255, 255);
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -150,7 +150,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -225,6 +225,7 @@ footer {
   bottom: 0;
   margin-top: 20px;
   width: 100%;
+  background-color: rgb(255, 217, 0);
 }
 .icons img {
   width: 40px;
@@ -235,11 +236,12 @@ footer {
   margin-right: 20px;
 }
 .kontakt p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Work sans", sans-serif;
 }
 .kontakt {
   margin-left: 20px;
+
 }
 
 @media screen and (max-width: 817px) {
@@ -358,7 +360,7 @@ footer {
 .button-text {
   display: inline-flex;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
   height: 100%;
   font-family: "work sans" sans-serif;
   font-size: 19px;
